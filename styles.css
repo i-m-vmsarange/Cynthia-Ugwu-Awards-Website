@@ -25,10 +25,12 @@ html,body{
     justify-content: space-between;
     color: #fff;
     padding: 20px 40px;
+
 }
 #nav a{
 
     color: #fff;
+    text-decoration: none;
 }
 #heading{
     margin-top: 40px;
@@ -36,7 +38,7 @@ html,body{
 #heading h1{
 
     font-family: "General Sans";
-    font-size: 9vw;
+    font-size: 9.5vw;
     line-height: 1;
     font-weight: 900;
     text-transform: uppercase;
@@ -46,6 +48,7 @@ html,body{
 #heading #second-h1{
 
     margin-left: 230px;
+    
 }
 .block-text{
     width: fit-content;
@@ -68,14 +71,14 @@ html,body{
     margin-right:40px;
 }
 #herofooter{
-   
+    padding: 0 2vw;
+    width: 100%;
+   position: absolute;
+   bottom: 3%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2vw;
-   width: 100%;
-   position: absolute;
-   bottom: 3%;
+   
 }
 #herofooter a {
     color: #fff;
@@ -100,4 +103,30 @@ html,body{
     height: 25px;
     border-radius: 50%;
     
+}
+#second{
+     padding-top: 200px;
+    padding-right: 10vw;
+    padding-left: 3vw;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: #fff;
+   
+}
+.elem{
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   padding: 3vw 3vw;
+   padding-right: 0;
+   border-top: 1px solid #888; 
+}
+.elem h1{
+
+    font-size: 7vw;
+    text-transform: uppercase;
+    opacity: 0.6;
 }
