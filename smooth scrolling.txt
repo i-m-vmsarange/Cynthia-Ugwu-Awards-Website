@@ -1,0 +1,12 @@
+Notes for enhancing website
+
+1. smooth scrolling ✅
+    go to locomotive smooth scroll github on google search ✅
+    attach loco scroll css library ✅
+    attach locomotive scroll min js ✅
+    some code from loco github for js
+2. gsap
+    go to gsap cdn
+    copy first link
+    attach gsap link in sript tag in the body
+3. scrolltrigger
