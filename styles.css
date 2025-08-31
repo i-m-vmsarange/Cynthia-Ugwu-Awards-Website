@@ -48,6 +48,16 @@ html,body{
     color: #fff;
     text-decoration: none;
 }
+.bounding{
+
+    width: fit-content;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.bounding .boundingelem{
+
+    transform: translateY(100%);
+}
 #heading{
     margin-top: 40px;
 }
@@ -67,19 +77,23 @@ html,body{
     
 }
 .block-text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     width: fit-content;
     /* background-color: red; */
 }
 .block-text h5{
-    
+     /* background-color: yellow; */
     font-size: 15px;
-    text-align: right;
-    
 }
 #chotiheadings{
-    margin-top: 155px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 75px;
 }
-#chotiheadings h5{
+#chotiheadings  h5{
     text-align: right;
     text-transform: uppercase;
     font-size: 1rem;
